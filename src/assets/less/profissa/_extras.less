@@ -1,0 +1,339 @@
+@import "../bootstrap/_variables";
+
+.text-normal {
+    font-weight: normal;
+}
+.text-300 {
+    font-weight: 300;
+}
+.text-bold {
+    font-weight: 500 !important;
+}
+
+.btn {
+    margin-bottom:6px;
+    &:hover {
+        border-color:transparent !important;
+    }
+    &.btn-big {
+        padding:@gutter/2 @gutter;
+        font-size:24px;
+    }
+}
+.btn-link {
+    color:@preto !important;
+    &:hover, &:active, &:focus {
+        text-decoration:none !important;
+        border-color:transparent !important;
+    }
+}
+.btn-outline-alfa {
+    background-color: transparent !important;
+    border-color: @branco !important;
+    color:@branco !important;
+    &:hover {
+        background: @branco !important;
+        color: @preto !important;
+
+    }
+}
+.btn-default {
+    &:hover,
+        &:focus,
+        &.focus {
+        background-color: @preto !important;
+        color: @branco !important;
+        border-color: @preto !important;
+    }
+    &.btn-solid {
+        background-color: @preto !important;
+        color: @branco !important;
+        border-color: @preto !important;
+        &:hover,
+            &:focus,
+            &.focus {
+            background-color: darken(@preto, 50%) !important;
+        }
+    }
+    &.btn-outline {
+        background-color:@preto !important;
+        color:@branco !important;
+        border-color:@branco !important;
+        &:hover, &:focus, &.focus {
+            background-color: darken(@preto, 50%) !important;
+        }
+    }
+    &.btn-outline-alfa {
+        background-color: transparent !important;
+        border-color: @preto !important;
+        color:@preto !important;
+        &:hover {
+            background: @preto !important;
+            color: @branco !important;
+
+        }
+    }
+}
+.btn-primary {
+    &:hover,
+        &:focus,
+        &.focus {
+        background-color: @brand-primary !important;
+        color: @branco !important;
+        border-color: @brand-primary !important;
+    }
+    &.btn-solid {
+        background-color: @brand-primary !important;
+        color: @branco !important;
+        border-color: @brand-primary !important;
+        &:hover,
+            &:focus,
+            &.focus {
+            background-color: darken(@brand-primary, 10%) !important;
+        }
+    }
+    &.btn-outline {
+        background-color:@brand-primary !important;
+        color:@branco !important;
+        border-color:@branco !important;
+        &:hover, &:focus, &.focus {
+            background-color: darken(@brand-primary, 10%) !important;
+        }
+    }
+    &.btn-outline-alfa {
+        background-color: transparent !important;
+        border-color: @brand-primary !important;
+        color:@brand-primary !important;
+        &:hover {
+            background: @brand-primary !important;
+            color: @branco !important;
+
+        }
+    }
+}
+.btn-success {
+    &:hover,
+        &:focus,
+        &.focus {
+        //background-color: @brand-success !important;
+        background-color: @verde !important;
+        color: @branco !important;
+        border-color: @verde !important;
+    }
+    &.btn-solid {
+        background-color: @verde !important;
+        color: @branco !important;
+        border-color: @verde !important;
+        &:hover,
+            &:focus,
+            &.focus {
+            background-color: darken(@verde, 10%) !important;
+        }
+    }
+    &.btn-outline {
+        background-color:@verde !important;
+        color:@branco !important;
+        border-color:@branco !important;
+        &:hover, &:focus, &.focus {
+            background-color: darken(@verde, 10%) !important;
+        }
+    }
+
+    &.btn-outline-alfa {
+        background-color: transparent !important;
+        border-color: @verde !important;
+        color:@verde !important;
+        &:hover {
+            background: @verde !important;
+            color: @branco !important;
+
+        }
+    }
+}
+.btn-info {
+    &:hover,
+        &:focus,
+        &.focus {
+        //background-color: @brand-info !important;
+        background-color: @azul !important;
+        color: @branco !important;
+        border-color: @azul !important;
+    }
+    &.btn-solid {
+        background-color: @azul !important;
+        color: @branco !important;
+        border-color: @azul !important;
+        &:hover,
+            &:focus,
+            &.focus {
+            background-color: darken(@azul, 10%) !important;
+        }
+    }
+    &.btn-outline {
+        background-color:@azul !important;
+        color:@branco !important;
+        border-color:@branco !important;
+        &:hover, &:focus, &.focus {
+            background-color: darken(@azul, 10%) !important;
+        }
+    }
+
+    &.btn-outline-alfa {
+        background-color: transparent !important;
+        border-color: @azul !important;
+        color:@azul !important;
+        &:hover {
+            background: @azul !important;
+            color: @branco !important;
+
+        }
+    }
+}
+.btn-warning {
+    &:hover,
+        &:focus,
+        &.focus {
+        background-color: @brand-warning !important;
+        color: @branco !important;
+        border-color: @brand-warning !important;
+    }
+    &.btn-solid {
+        background-color: @brand-warning !important;
+        color: @branco !important;
+        border-color: @brand-warning !important;
+        &:hover,
+            &:focus,
+            &.focus {
+            background-color: darken(@brand-warning, 3%) !important;
+        }
+    }
+    &.btn-outline {
+        background-color:@brand-warning !important;
+        color:@branco !important;
+        border-color:@branco !important;
+        &:hover, &:focus, &.focus {
+            background-color: darken(@brand-warning, 3%) !important;
+        }
+    }
+
+    &.btn-outline-alfa {
+        background-color: transparent !important;
+        border-color: @brand-warning !important;
+        color:@brand-warning !important;
+        &:hover {
+            background: @brand-warning !important;
+            color: @branco !important;
+
+        }
+    }
+}
+.btn-danger {
+    &:hover,
+        &:focus,
+        &.focus {
+        background-color: @brand-danger !important;
+        color: @branco !important;
+        border-color: @brand-danger !important;
+    }
+    &.btn-solid {
+        background-color: @brand-danger !important;
+        color: @branco !important;
+        border-color: @brand-danger !important;
+        &:hover,
+            &:focus,
+            &.focus {
+            background-color: darken(@brand-danger, 10%) !important;
+        }
+    }
+    &.btn-outline {
+        background-color:@vermelho !important;
+        color:@branco !important;
+        border-color:@branco !important;
+        &:hover, &:focus, &.focus {
+            background-color: darken(@brand-danger, 10%) !important;
+        }
+    }
+
+    &.btn-outline-alfa {
+        background-color: transparent !important;
+        border-color: @vermelho !important;
+        color:@vermelho !important;
+        &:hover {
+            background: @vermelho !important;
+            color: @branco !important;
+
+        }
+    }
+}
+
+
+.bloco-cor {
+    width:100%;
+    height:100px;
+    position:relative;
+    h2 {
+        margin:0;
+        font-size:14px;
+        position:absolute;
+        right:8px;
+        bottom:6px;
+        strong {
+            font-style:italic;
+        }
+    }
+}
+.bloco-vermelho {
+    background-color:@vermelho !important;
+    color:@branco !important;
+}
+.bloco-verde {
+    background-color:@verde !important;
+    color:@branco !important;
+}
+.bloco-amarelo {
+    background-color:@amarelo !important;
+    color:@branco !important;
+}
+.bloco-azul {
+    background-color:@azul !important;
+    color:@branco !important;
+}
+.bloco-vermelho-escuro {
+    background-color:@vermelho-escuro !important;
+    color:@branco !important;
+}
+.bloco-verde-escuro {
+    background-color:@verde-escuro !important;
+    color:@branco !important;
+}
+.bloco-amarelo-escuro {
+    background-color:@amarelo-escuro !important;
+    color:@branco !important;
+}
+.bloco-azul-escuro {
+    background-color:@azul-escuro !important;
+    color:@branco !important;
+}
+
+.card {
+    position:relative;
+
+    background-color: @branco;
+    margin-bottom: @gutter;
+
+    padding: @gutter / 2;
+
+    .border-rounded(5px);
+}
+
+.bg-vermelho { background-color: @vermelho !important; }
+.bg-vermelho-escuro { background-color: @vermelho-escuro !important; }
+.bg-verde { background-color: @verde !important; }
+.bg-verde-escuro { background-color: @verde-escuro !important; }
+.bg-amarelo { background-color: @amarelo !important; }
+.bg-amarelo-escuro { background-color: @amarelo-escuro !important; }
+.bg-azul { background-color: @azul !important; }
+.bg-azul-escuro { background-color: @azul-escuro !important; }
+.bg-preto { background-color: @preto !important; }
+.bg-branco { background-color: @branco !important; }
+.bg-creme { background-color: @creme !important; }
