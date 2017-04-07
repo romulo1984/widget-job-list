@@ -41,6 +41,7 @@ export default {
       jobs: [
         {
           name: 'Purificador de Parafraseamento',
+          url: 'https://profissa.net/vaga/123',
           company: 'HR Solutions',
           industry: 'Academia de Esportes / Artes Marciais',
           location: 'Jardim da Penha, Vitória-ES',
@@ -49,6 +50,7 @@ export default {
         },
         {
           name: 'Coisador de Negoçamento',
+          url: 'https://profissa.net/vaga/321',
           company: 'HR Solutions',
           industry: 'Academia de Esportes / Artes Marciais',
           location: 'Jardim da Penha, Vitória-ES',

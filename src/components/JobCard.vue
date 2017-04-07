@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <a class="card" :href="job.url">
         <div class="header-card">
             <h3>{{job.name}}</h3>
         </div>
@@ -42,6 +42,14 @@ export default {
 <style scoped lang="less">
     @import "../assets/less/profissa/_variables.less";
 
+	._link-behavior {
+		display: block;
+		color: inherit;
+		&:hover {
+			text-decoration: none;
+			background-color: lighten(#ccc, 18%);
+		}
+	}
     .card {
         position:relative;
         background-color: @branco;
@@ -49,6 +57,7 @@ export default {
         margin-top: @gutter/2;
         padding: @gutter/2;
         .border-rounded(5px);
+        ._link-behavior;
     }
     .header-card {
         color:@preto;
