@@ -1,6 +1,6 @@
 # jobs
 
-> Widget que exibe vagas do Profissa
+> Widget que exibe vagas do Profissa net
 
 ## Build Setup
 
